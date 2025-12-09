@@ -37,6 +37,27 @@
       ]
     },
     {
+      "name": "message",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/wuhan/ui/message.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "message-demo",
+      "type": "registry:example",
+      "registryDependencies": ["message"],
+      "files": [
+        {
+          "path": "registry/wuhan/examples/message-demo.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
       "name": "prompt-01",
       "type": "registry:block",
       "description": "A simple prompt.",
